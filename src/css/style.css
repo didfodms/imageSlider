@@ -15,9 +15,10 @@
 }
 
 .slider-wrap ul.slider {
-  width: 8000px;
+  width: 100%;
   height: 100%;
   position: absolute;
+  left: 0px;
 }
 
 .slider-wrap ul.slider li {
@@ -117,6 +118,7 @@
   margin-right: 20px;
 }
 
+/* play 중 -> pause버튼이 뜸 */
 .play .fa-play {
   display: none;
 }
@@ -125,6 +127,7 @@
   display: block;
 }
 
+/* pause 중 -> play버튼이 뜸 */
 .pause .fa-play {
   display: block;
 }
